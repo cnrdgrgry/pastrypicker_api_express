@@ -6,5 +6,5 @@ const pastryRouter = express.Router();
 const pastryRoutes = require("./pastryRoutes");
 pastryRouter.use("/pastries", pastryRoutes);
 
-//exporting apiRouter
+//exporting the Router
 module.exports = pastryRouter;
