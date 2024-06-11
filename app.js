@@ -10,7 +10,7 @@ app.use(cors());
 // Middleware for parsing req.body
 app.use(express.json());
 
-// Import and mount the apiRouter at the '/api' path.
+// Import and mount the pastryRouter at the '/pastrypicker' path.
 const pastryRouter = require("./server/pastryPicker");
 app.use("/pastrypicker", pastryRouter);
 
