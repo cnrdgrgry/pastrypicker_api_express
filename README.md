@@ -14,4 +14,4 @@ View it over at [Render.com](https://render.com/) at the below links
 
 It will also POST, PUT and DELETE, so [view the code here:](https://github.com/cnrdgrgry/pastrypicker_api_express/tree/main/server)
 
-At this point, it simply pulls from a hardcoded array of json objects, as such, it is very simple, with now async functionality.
+At this point, it simply pulls from a hardcoded array of json objects, as such, it is very simple with no async functionality.
